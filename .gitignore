@@ -1,0 +1,94 @@
+# ---- Unreal Engine generated folders ----
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Plugin build output
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# Keep these files inside Build/ (icons, store configs, platform settings)
+!Build/**/*.ico
+!Build/**/*.icns
+!Build/**/*.png
+!Build/**/*.xml
+!Build/**/*.plist
+!Build/**/*.ini
+!Build/**/*.txt
+!Build/Android/
+!Build/IOS/
+
+# ---- Visual Studio / Rider / VS Code ----
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+*.opendb
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.code-workspace
+.vsconfig
+
+# ---- Xcode ----
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+*.xcuserstate
+
+# ---- Compiled files ----
+*.obj
+*.o
+*.pdb
+*.ilk
+*.idb
+*.pch
+*.gch
+*.exp
+*.lib
+*.a
+*.dll
+*.so
+*.dylib
+*.exe
+*.app
+*.ipa
+*.apk
+*.aab
+
+# ---- Packaged / cooked output ----
+/Releases/
+/Packaged/
+/Builds/
+*.pak
+*.ucas
+*.utoc
+
+# ---- Logs, crashes, temp ----
+*.log
+*.tmp
+*.dmp
+*.bak
+crashinfo--*
+
+# ---- Android / Gradle ----
+.gradle/
+local.properties
+*.keystore
+*.jks
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
